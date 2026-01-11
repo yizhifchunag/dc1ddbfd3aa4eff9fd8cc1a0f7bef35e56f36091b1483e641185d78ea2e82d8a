@@ -1,27 +1,26 @@
 name: yizhifchunag
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 4/6 * * *'
+    - cron: '18 5/6 * * *'
 
-jobs:  # 9702
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yizhifchunag
         env:
-          e69: ${{ secrets.e69 }}
+          ymo771: ${{ secrets.ymo771 }}
         run: |
-          echo $e69 | jq -r .skk83825 | /bin/bash
-          echo $fol3297 | jq -r .hzw2188 | /bin/bash
-          echo $m0 | jq -r .z43459 | /bin/bash
-          echo $llxwy6 | jq -r .l704 | /bin/bash
-          echo $rdhvg1735 | jq -r .rb32848 | /bin/bash
-          echo $rvo649 | jq -r .pqik929 | /bin/bash
-          echo $kyu7 | jq -r .dtzfc341 | /bin/bash
-          echo $j4 | jq -r .n159 | /bin/bash
-          echo $hzfsz6 | jq -r .ksda2152 | /bin/bash
-          echo $fu1 | jq -r .mfz845 | /bin/bash
+          echo $ymo771 | jq -r .oue97 | /bin/bash
+          echo $rziaf7133 | jq -r .glsis87091 | /bin/bash
+          echo $cc90 | jq -r .rbttk16230 | /bin/bash
+          echo $lr293 | jq -r .cf619 | /bin/bash
+          echo $glrid951 | jq -r .ne51 | /bin/bash
+          echo $l5701 | jq -r .iqx8112 | /bin/bash
+          echo $uzzo75943 | jq -r .ph20034 | /bin/bash
+          echo $nzvx83 | jq -r .awu2359 | /bin/bash
+          echo $kzvla9737 | jq -r .mtq30633 | /bin/bash
+          echo $sze35 | jq -r .d710 | /bin/bash
 
